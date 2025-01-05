@@ -133,9 +133,9 @@ docker logs -f docker-backend-1
 curl http://localhost:5000/api/health
 
 # Login as admin
-curl -X POST http://localhost:5000/auth/login \
+curl -X POST http://localhost:5000/api/auth/login \
   -H "Content-Type: application/json" \
-  -d '{"username": "admin", "password": "admin1234"}'
+  -d '{"username": "subbu", "password": "admin1234"}'
 ```
 
 ## 6. Next Steps
